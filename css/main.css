@@ -148,6 +148,6 @@ the navi (.icon) */
       display: block;
       text-align: left;
     }
-    .text-gallery {font-size: 2em;}
+    .text-gallery {font-size: 2em; bottom: 30%;}
     .prev, .next{font-size: 1em;}
 }
