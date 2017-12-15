@@ -53,6 +53,18 @@ body{
 .navi .icon{
     display: none;
 }
+/*3Line Menu Icon*/
+.lineContainer{
+  display: inline-block;
+  cursor: pointer;
+}
+.line1, .line2, .line3 {
+  width:30px;
+  height: 3px;
+  background-color: #ff0000;
+  margin: 5px 0;
+  transition: 0.4s;
+}
 /*text slider*/
 .mySlides {display:none}
 
