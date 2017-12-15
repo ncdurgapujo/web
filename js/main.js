@@ -11,11 +11,11 @@ function fun() {
     }
 }
 /*Countdown */
-var exptDate = new Date("October 15, 2018 00:01:01").getTime();
+var exptDate = new Date("October 15, 2018 00:00:01").getTime();
 var now = new Date().getTime();
 var rem = exptDate - now;
 var days = Math.floor(rem/(1000*60*60*24));
-//document.getElementById("i2").innerHTML=days+ " Days Left For Durga Puja 2018";
+document.getElementById("eve").innerHTML=days+ " Days Left For Durga Puja 2018";
 
 /*Copyright year auto-update*/
 var d = new Date();
