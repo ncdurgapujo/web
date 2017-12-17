@@ -42,6 +42,7 @@ body{
     color: #fff;
     text-align: center;
     padding: 14px 8%;
+    width: 20%;
     text-decoration: none;
 }
 /*Change the color of the links on hover */
@@ -160,7 +161,7 @@ the navi (.icon) */
         display: block;
     }
     .navi a {
-        padding: 14px 35px;
+        padding: 14px 25px;
     }
     /*The responsive class is added to the navi with JS  when the user clicks on the icon. This class makes the top
     nav look good on smaller screens(display the link vertically instead of horizontally*/
@@ -177,4 +178,9 @@ the navi (.icon) */
     }
     .text-gallery {font-size: 1em;top:60%;}
     .prev, .next{font-size: 1em;}
+    .navi a:hover{
+      background-color: transparent; 
+      color: red;
+      font-weight: bold;
+  }
 }
